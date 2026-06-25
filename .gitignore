@@ -1,0 +1,20 @@
+# NDB raw data (large xlsx files - download separately)
+DATA/*.xlsx
+DATA/*.pdf
+
+# Temporary/working files
+DATA/*.txt
+DATA/*.csv
+DATA/*.py
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Generated QA/scratch outputs
+analysis/output/qa_images/
+analysis/output/*_qa.txt
+analysis/output/report_verify.txt
+analysis/output/report_stats.txt
+analysis/output/summary.txt
+tokumei_ChousaIchiran.xlsx
